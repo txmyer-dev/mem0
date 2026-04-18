@@ -5,10 +5,6 @@ mem0ai>=0.1.48
 python-dotenv==1.0.1
 psycopg>=3.2.8
 psycopg-pool>=3.2.6,<4.0.0
-PyYAML>=6.0.1
-sentence-transformers
-torch --index-url https://download.pytorch.org/whl/cpu
 psycopg[binary]
+PyYAML>=6.0.1
 neo4j
-spacy
-einops

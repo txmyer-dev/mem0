@@ -17,6 +17,9 @@ sed -i "s|REPLACE_WITH_NEO4J_PASSWORD|${NEO4J_PASSWORD:-neo4j}|g" config.yaml
 # LLM
 sed -i "s|REPLACE_WITH_OPENROUTER_API_KEY|${OPENROUTER_API_KEY}|g" config.yaml
 
+# Embedder
+sed -i "s|REPLACE_WITH_OPENAI_API_KEY|${OPENAI_API_KEY}|g" config.yaml
+
 echo "=== Resolved config.yaml ==="
 cat config.yaml
 echo "=== Starting mem0 API ==="
